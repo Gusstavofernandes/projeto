@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+body{
+    margin: 0px;
+}
+header{
+    background-color: brown;
+    margin-top: 0em;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    box-shadow: -2px 2px 5px 2px #751a1a;
+    
+    
+}
+#titulo{
+    font-family: 'inicio';
+    font-style: normal;
+    font-weight: normal;
+    color: white;
+    margin-top: 0em;
+    text-align:center;
+    font-size:3em;
+    margin-bottom:0em;
+}
+@font-face {
+    font-family: 'inicio';
+    src: url('fonts/Aston\ Script.ttf') format('truetype');
+}
+nav{
+    background-color: brown;
+    margin-bottom: 0em;
+}
+@font-face {
+    font-family:'enrolados' ;
+    src: url(fonts/Mercy\ Christole.ttf);
+}
+nav > a{
+    font-family:'enrolados';
+    color: white;
+    margin: 1em;
+    text-decoration: none;
+}
+#link1:hover{
+text-decoration: underline;
+}
+#link2:hover{
+text-decoration:underline;
+}
+#link3:hover{
+text-decoration:underline;
+}
+#link4:hover{
+text-decoration: underline;
+}
+#link5:hover{
+text-decoration: underline;
+}
+.voltar{
+    text-decoration:none;
+    color: white;
+    font-family:'inicio';
+    font-size: large;
+    text-align: left;
+    font-weight: normal;
+    margin-bottom: 2px;
+}
+a:visited{
+    color: white;
+    text-decoration:none;
+}
+.header{
+    background-color: brown;
+    margin-top: 0em;
+    margin-bottom: 0em;
+    height: 4em;
+    padding-top: 2em;
+    padding-left: 2em;
+}
+.subtitulo{
+    color: white;
+    font-family: 'inicio';
+    text-align: center;
+    height: 4em;
+    margin-top: -2em;
+}
+.submaterias{
+    color: brown;
+    font-family: 'enrolados';
+    margin: 1em;
+}
+P{
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    margin-right: 1em;
+    line-height: 1.3em;
+    text-align: justify;
+    font-size:larger;
+    color: black;
+}
+footer{
+    background-color: brown;
+    color: white;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+}
+footer a{
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+.esmaltes{
+    width:15%;
+    background-color: #ab3434a1;
+    border-radius: 2em;
+    margin: 1em;
+}
+.principal{
+    background-color:#fd000008; ;
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+}
+main{
+    min-width: 300px;
+    max-width: 800px;
+    margin: auto;
+}
+div.video{
+    background-color: rgba(165, 42, 42, 0);
+    margin-bottom: 20px;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 56.5%;
+    
+    position: relative;
+}
+div.video >iframe{
+    position: absolute;
+    top:5% ;
+    left:5% ;
+    width: 90%;
+    height: 90%;
+}
+.image{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    ;
+}
