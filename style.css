@@ -38,7 +38,7 @@ nav{
 nav > a{
     font-family:'enrolados';
     color: white;
-    margin: 1em;
+    margin: 0.5em;
     text-decoration: none;
 }
 #link1:hover{
